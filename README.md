@@ -325,3 +325,61 @@ console.log(voterResults(voters)); // Returned value shown below:
 }
 */
 ```
+## Array Exercises
+### Use the built-in forEach(), find(), findIndex(), some(), and every() Wizard Battle Practice
+
+***Log to the console every Wizard in the array using forEach().***
+
+```javascript
+const wizards = ["Edwin Odesseiron", "Harry Potter", "Ronny the Bear", "Gandalf the Grey"];
+```
+
+***Using the following array, complete the following tasks in order. Some tasks will change the behavior of later tasks.***
+
+```javascript
+const wizards = [
+  {
+    name: "Edwin Odesseiron",
+    age: 37,
+    alignment: "lawful evil"
+  },
+  {
+    name: "Harry Potter",
+    age: 21,
+    alignment: "neutral good"
+  },
+  {
+    name: "Hermony Granger",
+    age: 21,
+    alignment: "lawful good"
+  },
+  {
+    name: "Ronny the Bear",
+    age: 21,
+    alignment: "neutral good"
+  },
+  {
+    name: "Gandalf",
+    age: 100,
+    alignment: "neutral good"
+  }
+]
+```
+
+1. Log to the console every wizard's name.
+
+2. Add an isAlive property to every wizard, setting it to true.
+
+3. Make a new array of all the Wizards that are "neutral good".
+
+4. Find the index of a wizard that is "lawful good".
+
+5. Return a Boolean that states whether or not all the wizards are alive.
+
+6. Return a Boolean that states whether or not at least one wizard is "neutral good".
+
+7. Check every "alignment" for every wizard. Kill every "neutral good" wizard. (Modify every "neutral good" wizard's isAlive property to false.)
+
+8. Return a Boolean that states whether or not all the wizards are alive.
+
+9. Return a Boolean that states whether or not some of the wizards are alive.
